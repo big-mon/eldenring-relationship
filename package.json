@@ -1,8 +1,10 @@
 {
+  "license": "MIT",
   "scripts": {
     "svg": "yarn -s run kingraph data.yml > family.svg"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "kingraph": "rstacruz/kingraph"
   }
 }
