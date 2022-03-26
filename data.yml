@@ -1,0 +1,74 @@
+families:
+  - house: ラダゴン(マリカ)
+    parents: [マリカ, ラダゴン]
+    children: [マレニア, ミケラ]
+  - house: ゴッドフレイ
+    parents: [マリカ, ゴッドフレイ]
+    children: [ゴッドウィン, モーゴット, モーグ]
+    families:
+      parents: [ゴッドフレイ]
+      children: [ネフェリ・ルー]
+  - house: ラダゴン
+    parents: [レナラ, ラダゴン]
+    children: [ラダーン, ライカード, ラニ]
+  - parents2: [ラニ, 主人公]
+  - children2: [マリカ, マリケス]
+
+people:
+  マリカ:
+    fullname: 永遠の女王
+    class: [god]
+  ラダゴン:
+    fullname: 黄金律、エルデの王
+  ゴッドフレイ:
+    fullname: 最初の王、ホーラ・ルー
+    class: [human]
+  ゴッドウィン:
+    fullname: 黄金
+    class: [demigod, dead]
+  モーゴット:
+    fullname: 忌み王、接ぎ木(マルギット)
+    class: [demigod]
+  モーグ:
+    fullname: 血の君主
+    class: [demigod]
+  マレニア:
+    fullname: ミケラの刃、欠け身
+    class: [demigod]
+  ミケラ:
+    fullname: ミケラ
+    class: [demigod]
+  ラダーン:
+    fullname: 星砕きの英雄、将軍
+    class: [demigod]
+  ライカード:
+    fullname: 冒涜の君主
+    class: [demigod]
+  ラニ:
+    fullname: 月の王女
+    class: [demigod]
+  ネフェリ・ルー:
+    fullname: 戦士
+    class: [human]
+  レナラ:
+    fullname: 満月の女王
+    class: [human]
+  マリケス:
+    fullname: 黒き剣、獣の司祭(グラング)
+    class: [wolf]
+  主人公:
+    fullname: プレイヤー、褪せ人
+    class: [human]
+
+styles:
+  human:
+    color: green
+  god:
+    color: orange
+  demigod:
+    color: mediumblue
+  wolf:
+    color: darkslateblue
+  dead:
+    style: "filled"
+    fillcolor: firebrick

@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "svg": "yarn -s run kingraph data.yml > family.svg"
+  },
+  "dependencies": {
+    "kingraph": "rstacruz/kingraph"
+  }
+}
